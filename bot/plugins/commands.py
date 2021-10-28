@@ -48,7 +48,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/c4christyyt'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github237acc/demo')
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/github237acc/demo.git')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/c4christyyt')
     ],[
