@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/i_creator_bot"
+                                    'Our channel🔥', url="https://t.me/filesharebotusers"
                                 )
                         ]
                     ]
@@ -47,11 +47,9 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/i_creator_bot')
+        InlineKeyboardButton('Our channel🔥', url='https://t.me/filesharebotusers')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/ask_movie_latest')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('Our group⚡️', url='https://t.me/ask_movie_latest')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
