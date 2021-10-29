@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n @c4christyyt",
+                caption = f"{file_name} \n  channel @filesharebotusers ",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/c4christyyt"
+                                    'Developers', url="https://t.me/i_creator_bot"
                                 )
                         ]
                     ]
@@ -47,10 +47,9 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/c4christyyt'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/github237acc/demo')
+        InlineKeyboardButton('Developers', url='https://t.me/i_creator_bot')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/c4christyyt')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/ask_movie_latest')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
